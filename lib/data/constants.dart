@@ -18,3 +18,13 @@ const kTextNormal = TextStyle(
   fontSize: 18,
   fontWeight: FontWeight.bold,
 );
+
+enum prodFor { hostel, college }
+
+const kCardName = TextStyle(color: Colors.white, fontSize: 18);
+const kCardTag = TextStyle(color: AppColor.text, fontSize: 18);
+const kCardPrice = TextStyle(
+  color: AppColor.primary,
+  fontSize: 35,
+  fontWeight: FontWeight.bold,
+);
