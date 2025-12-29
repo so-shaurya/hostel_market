@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hostel_market/data/constants.dart';
+import 'package:hostel_market/widgets/ProdCreationCard.dart';
 
 class Chat_screen extends StatefulWidget {
   const Chat_screen({super.key});
@@ -13,7 +14,7 @@ class _Chat_screenState extends State<Chat_screen> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: AppColor.background,
-      body: Center(child: Text('chat')),
+      body: Center(child: ProdCreationBox()),
     );
   }
 }
